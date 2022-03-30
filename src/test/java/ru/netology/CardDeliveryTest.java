@@ -39,7 +39,7 @@ public class CardDeliveryTest {
         this.newDate = newDate;
     }
 
-    @BeforeEach
+    @BeforeAll
     void openBrowser() {
         open("http://localhost:9999");
 
