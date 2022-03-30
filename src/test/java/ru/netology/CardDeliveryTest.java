@@ -40,7 +40,7 @@ public class CardDeliveryTest {
     }
 
     @BeforeAll
-    void openBrowser() {
+    static void openBrowser() {
         open("http://localhost:9999");
 
     }
